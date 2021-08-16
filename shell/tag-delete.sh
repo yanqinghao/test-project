@@ -1,0 +1,1 @@
+git ls-remote --tags| grep pd-cut | grep -v {} | awk '{print $2}'|xargs git push origin --delete

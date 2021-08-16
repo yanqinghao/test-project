@@ -1,0 +1,1 @@
+git branch -a | grep qmb | grep -v 2072 | sed "s/remotes\/origin\///g" | xargs git push origin --delete
